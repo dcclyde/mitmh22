@@ -12,7 +12,8 @@ HUNT_PUZZLEVIEWER_ENABLED = False
 HUNT_PUBLIC_TEAM_NAME = 'public'
 
 HUNT_ASSETS_SERVE_STATICALLY = True
-STATIC_URL = 'https://storage.googleapis.com/mitmh2022/static/'
+# STATIC_URL = 'https://storage.googleapis.com/mitmh2022/static/'
+STATIC_URL = 'https://storage.googleapis.com/mitmh22/static/'
 
 HUNT_WEBSITE_ACCESS_TOKEN = None
 
@@ -33,5 +34,5 @@ HUNT_ENABLE_CACHING = True
 HUNT_ENABLE_FILE_CACHING = True
 PUZZLE_TECH_SUPPORT_EMAIL = 'no-reply+tech-support@mitmh2022.com'
 
-HUNT_REGISTRATION_CLOSED = True
-HUNT_LOGIN_ALLOWED = False
+HUNT_REGISTRATION_CLOSED = False
+HUNT_LOGIN_ALLOWED = True

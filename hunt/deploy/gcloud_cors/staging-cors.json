@@ -1,8 +1,7 @@
 [
     {
       "origin": [
-        "https://staging.starrats.org",
-        "https://staging.bookspace.world",
+        "https://staging.pure-journey-13265.herokuapp.com/"
       ],
       "method": ["GET"],
       "responseHeader": [],

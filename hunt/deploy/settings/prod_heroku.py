@@ -14,23 +14,26 @@ ALLOWED_HOSTS = [
     'localhost',
     'registration.localhost',
 
-    # Our real domains.
-    '.mitmh2022.com',
-    '.starrats.org',
-    '.bookspace.world',
-    '.palindrome-hunt-prod.herokuapp.com',
+    # 'https://pure-journey-13265.herokuapp.com/'  # dcclyde
+    '.pure-journey-13265.herokuapp.com/'  # dcclyde
+    # # Our real domains.
+    # '.mitmh2022.com',
+    # '.starrats.org',
+    # '.bookspace.world',
+    # '.palindrome-hunt-prod.herokuapp.com',
 ]
 ALLOWED_REDIRECTS = [
     'localhost:8000',
     'registration.localhost:8000',
 
-    'mitmh2022.com',
-    'www.mitmh2022.com',
-    'starrats.org',
-    'www.starrats.org',
-    'bookspace.world',
-    'www.bookspace.world',
-    'palindrome-hunt-prod.herokuapp.com',
+    'pure-journey-13265.herokuapp.com/'  # dcclyde
+    # 'mitmh2022.com',
+    # 'www.mitmh2022.com',
+    # 'starrats.org',
+    # 'www.starrats.org',
+    # 'bookspace.world',
+    # 'www.bookspace.world',
+    # 'palindrome-hunt-prod.herokuapp.com',
 ]
 
 DATABASES = {
@@ -39,11 +42,11 @@ DATABASES = {
     'default': env.db_url(),
 }
 
-ANYMAIL = {
-    'MAILGUN_API_KEY': env('MAILGUN_API_KEY'),
-    "MAILGUN_SENDER_DOMAIN": 'mg.mitmh2022.com',
-}
-EMAIL_BACKEND = 'anymail.backends.mailgun.EmailBackend'
+# ANYMAIL = {
+#     'MAILGUN_API_KEY': env('MAILGUN_API_KEY'),
+#     "MAILGUN_SENDER_DOMAIN": 'mg.mitmh2022.com',
+# }
+# EMAIL_BACKEND = 'anymail.backends.mailgun.EmailBackend'
 
 SPOILR_RECEIVE_INCOMING_EMAILS = True
 SPOILR_INCOMING_EMAILS_FORWARDING_ADDRESS = 'palindrome2022@gmail.com'

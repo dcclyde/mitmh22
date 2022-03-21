@@ -1,10 +1,7 @@
 [
     {
       "origin": [
-        "https://www.starrats.org",
-        "https://www.bookspace.world"
-        "https://starrats.org",
-        "https://bookspace.world"
+        "pure-journey-13265.herokuapp.com/"
       ],
       "method": ["GET"],
       "responseHeader": [],
