@@ -1,7 +1,7 @@
 [
     {
       "origin": [
-        "https://staging.pure-journey-13265.herokuapp.com/"
+        "https://staging.pure-journey-13265.herokuapp.com"
       ],
       "method": ["GET"],
       "responseHeader": [],

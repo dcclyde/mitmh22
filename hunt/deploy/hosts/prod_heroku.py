@@ -5,7 +5,7 @@ host_patterns = patterns('',
     host(r'registration.localhost:8000', 'hunt.deploy.urls.registration', name="registration-dev"),
     host(r'localhost:8000', 'hunt.deploy.urls.site', name="site-dev"),
 
-    host(r'pure-journey-13265.herokuapp.com/', 'hunt.deploy.urls.unified', name='heroku', scheme='https://'),
+    host(r'pure-journey-13265.herokuapp.com', 'hunt.deploy.urls.unified', name='heroku', scheme='https://'),
 
     # Our real domains.
     # host(r'www.mitmh2022.com', 'hunt.deploy.urls.registration', name='registration', scheme='https://'),
@@ -19,6 +19,6 @@ host_patterns = patterns('',
     # host(r'palindrome-hunt-prod.herokuapp.com', 'hunt.deploy.urls.unified', name='heroku', scheme='https://'),
 
     # The host to use by default.
-    host(r'pure-journey-13265.herokuapp.com/', 'hunt.deploy.urls.unified', name='default', scheme='https://'),
+    host(r'pure-journey-13265.herokuapp.com', 'hunt.deploy.urls.unified', name='default', scheme='https://'),
     # host(r'www.mitmh2022.com', 'hunt.deploy.urls.registration', name='default', scheme='https://'),
 )

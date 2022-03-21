@@ -15,7 +15,7 @@ ALLOWED_HOSTS = [
     'registration.localhost',
 
     # 'https://pure-journey-13265.herokuapp.com/'  # dcclyde
-    '.pure-journey-13265.herokuapp.com/'  # dcclyde
+    '.pure-journey-13265.herokuapp.com'  # dcclyde
     # # Our real domains.
     # '.mitmh2022.com',
     # '.starrats.org',
@@ -26,7 +26,7 @@ ALLOWED_REDIRECTS = [
     'localhost:8000',
     'registration.localhost:8000',
 
-    'pure-journey-13265.herokuapp.com/'  # dcclyde
+    'pure-journey-13265.herokuapp.com'  # dcclyde
     # 'mitmh2022.com',
     # 'www.mitmh2022.com',
     # 'starrats.org',
@@ -49,6 +49,6 @@ DATABASES = {
 # EMAIL_BACKEND = 'anymail.backends.mailgun.EmailBackend'
 
 SPOILR_RECEIVE_INCOMING_EMAILS = True
-SPOILR_INCOMING_EMAILS_FORWARDING_ADDRESS = 'palindrome2022@gmail.com'
+SPOILR_INCOMING_EMAILS_FORWARDING_ADDRESS = 'dcclyde@gmail.com'
 
 # TODO(sahil): Add a cache and channel layer (redis).
