@@ -164,13 +164,14 @@ async function main() {
     //     /static/chunks, and ensure they get deployed with static content.
     //     The rewriting is part of the deploy script.
     // Both are a little brittle but seem to work.
-    splitting: true,
+    splitting: false,
     format: "esm",
     sourcemap: "inline",
     minify: !debug,
     watch,
     incremental: watch,
-    entryNames: "[dir]/dist/[name]-[hash]",
+    entryNames: "[dir]/dist/[name]",
+    // entryNames: "[dir]/dist/[name]-[hash]",
     chunkNames: "chunks/[name]-[hash]",
     outbase: huntDataDirectory,
     outdir: huntDataDirectory,
